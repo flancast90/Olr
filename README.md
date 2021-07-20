@@ -1,6 +1,8 @@
 Olr
 =================================================
 
+![RobotoFontface for Olr](https://i.imgur.com/G61nvII.png)
+
 Java Optical Letter Recognition using pure maths, and no Neural Network!
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-lightgray.svg?style=flat-square)](https://opensource.org/licenses/MIT)
