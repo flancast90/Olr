@@ -1,7 +1,7 @@
 Olr
 =================================================
 
-<img align="center" src="https://i.imgur.com/G61nvII.png" style="width:100vw; height:auto;"/>
+<img align="center" src="https://i.imgur.com/G61nvII.png" width="100%"/>
 
 Java Optical Letter Recognition using pure maths, and no Neural Network!
 
