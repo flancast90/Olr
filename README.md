@@ -11,6 +11,7 @@ Table of contents
 -----------------
 
 * [Introduction](#introduction)
+* [Screenshots](#screenshots)
 * [Installation](#installation)
 * [Algorithm Basics](#Algorithm)
 * [Getting help](#getting-help)
@@ -23,6 +24,11 @@ Introduction
 ------------
 
 Olr is a Java take on the well-known OCR, or optical character recognition. Unlike these other libraries, however, Olr separates itself by its ease-of-use, completely native dependencies (no external .jars), and lack of Neural Network. Instead, Olr uses a purely meth-driven approach to letter-recognition, keeping CPU-usage at a minimum while also not sacrificing quality. More information about the code, as well as a pseudocode approach to Olr, can be [found below](#Algorithm).
+
+
+Screenshots
+-----------
+![Olr Running](https://i.imgur.com/rkoguIN.png)
 
 
 Algorithm
@@ -148,68 +154,31 @@ File path = new File(System.getProperty("user.dir")+"/fontface");
 Installation
 ------------
 
+Olr has no non-native dependencies. This makes it super-easy to set-up. Hooray! 🎉
 
+1. To get started with Olr, first ensure that you have a Java IDE installed. One popular such IDE is [Eclipse](https://www.eclipse.org/eclipse/).
+2. Inside your IDE, there should be an ``import`` tab, or something comparable. You should be able to select the ``Olr-main`` folder after a few more steps, and choose this to do so. Below, this step is shown as done in [Eclipse](https://www.eclipse.org/eclipse/).
+![Import File Image](https://i.imgur.com/xKYBQK5.png)
+3. Assuming you imported the file correctly, you should be able to run the ``olr.java`` file!
+4. That's it!
 
-1. To get started with Pythune, first make sure Python is downloaded as per https://www.python.org/downloads/, and then download PIP [here](https://pip.pypa.io/en/stable/cli/pip_download/)
-2. Next, make sure that the necessary libraries are installed using Pip
-```bash
-pip install pyaudio
-pip install scipy
-pip install numpy
-pip install tqdm
-```
-3. Once these libraries are downloaded, start Pythune as follows:
-```bash
-cd path/to/Pythune-main
-cd src
-python pythune.py
-```
-4. That's it! Refer to the [Usage Section](#usage) for the quick-start guide
-
-
-Usage
------
-
-### Getting Started
-
-Once Pythune starts, you should see an output similar to the following:
-[![Pythune Start Img](https://i.imgur.com/645StsQ.png)]
-
-Click any key to continue when on that screen!
-
-Next, you should see a nifty progress bar; This means Pythune is recording sound, and waiting for the sound of a piano key!
-[![Pythune Recording](https://i.imgur.com/pYXkodm.png)]
-
-Once this progress bar reaches 100% (progress bar courtesy of TQDM), you will get a brief message of the file status, its frequency, as well as the distance needed for the key to be tuned to reach perfect pitch! **Remember that Pythune is not perfect. If its output does not seem correct, try restarting the program, there is no limit on how many recordings can be done!**
-
-### Listening to Past-Pythune Recordings
-
-For ease-of-use, Pythune stores all past audio files in its ```cache``` folder. To get there, just navigate to the ``src`` folder and then to the ``cache`` folder within it. The numbers of the file name follow the Pythune convention of the current hour-minute-millisecond, so finding the correct files is pretty easy. If you are A: a mega-hacker, or B: Lacking a GUI, you can also go to the cache folder via a simple ``cd`` command as shown below:
-```
-cd path/to/src/folder
-cd src
-```
-The contents can then be listed as follows:
-```
-dir
-```
 
 Getting help
 ------------
 
-Hopefully you don't need this section, but in case something goes wrong, feel free to drop me an email at ```flancast90@gmail.com```, or [open a new issue on this GitHub Repo](https://github.com/flancast90/Pythune/issues/new). I will do my best to respond ASAP to these problems!
+Hopefully you don't need this section, but in case something goes wrong, feel free to drop me an email at ```flancast90@gmail.com```, or [open a new issue on this GitHub Repo](https://github.com/flancast90/Olr/issues/new). I will do my best to respond ASAP to these problems!
 
 
 Contributing
 ------------
 
-Contributions to this file can be done as a [Pull Request](https://github.com/flancast90/Pythune/compare), or by shooting an email to ```flancast90@gmail.com```. If any Python or Music-Savvy person would like to be added as a Collaborator to this repo, please send an email to the same address given above. 
+Contributions to this file can be done as a [Pull Request](https://github.com/flancast90/Olr/compare), or by shooting an email to ```flancast90@gmail.com```. If anyone would like to be added as a Collaborator to this repo, please send an email to the same address given above. 
 
 
 License
 -------
 
-This README file is distributed under the terms of the [MIT License](https://opensource.org/licenses/MIT). The license applies to this file and other files in the [GitHub repository](http://github.com/flancast90/Pythune) hosting this file.
+This README file is distributed under the terms of the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0). The license applies to this file and other files in the [GitHub repository](http://github.com/flancast90/Olr) hosting this file.
 
 
 Acknowledgments
