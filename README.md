@@ -186,5 +186,15 @@ Acknowledgments
 
 Thanks to everyone in the list below! Each of them helped me on my journey to create Pythune, and their knowledge and expertise in the subject of music, music-theory, or programming, respectively, taught me something new that is now implemented in Pythune. You all are awesome!
 
+Sorry, I'm a JavaScript developer, which (obviously), has no similarity to Java.
+
 * https://github.com/badges/shields
 * https://github.com/mhucka/readmine/
+* https://onlinetexttools.com/convert-text-to-image
+* https://www.javaprogramto.com/2020/04/java-arraylist-maximum-value.html#:~:text=Finding%20the%20max%20value%20from,natural%20ordering%20of%20its%20elements.
+* https://www.java67.com/2016/07/how-to-find-length-size-of-arraylist-in-java.html#:~:text=You%20can%20use%20the%20size,present%20in%20the%20array%20list.
+* https://stackoverflow.com/questions/15776644/java-how-do-i-initialize-an-array-size-if-its-unknown/15776723
+* https://www.geeksforgeeks.org/java-program-for-program-to-find-largest-element-in-an-array/
+* https://stackoverflow.com/questions/179427/how-to-resolve-a-java-rounding-double-issue
+* https://www.geeksforgeeks.org/how-to-add-an-element-to-an-array-in-java/
+* https://stackoverflow.com/questions/4917326/how-to-iterate-over-the-files-of-a-certain-directory-in-java
