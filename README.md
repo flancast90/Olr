@@ -39,12 +39,21 @@ Algorithm
 In pseudocode, the basic steps to recognize each letter, as well as derive the confidence of the image similarity (as percent), are listed as follows.
 ```pseudocode
 1. Change the colors of the sample image (char.png), to black-and-white.
-2. Using a pixel-by-pixel approach, initialise an array storing the bytes "0" (white), and "1" (black) for the sample image.
-2. For each image in the fontface directory (stores the letter and number images for comparison), also change these to black-and-white.
-3. For each image in the fontface directory, initialise an array storing the black and white vals, as was done for the sample image.
-4. Compare the sample-image array to the arrays of each of the other files in the fontface directory. For a shared pixel value at the same position, add one to the value of same.
-5. For each value of same, add it to a new Java arrayList, and determine which is the highest number within it. Output this number*100 (to make percent), to the user, as well as the name of the file.
-6. Replace the path of the file, leaving only the name, which, because of the naming-convention used, is also the value of the letter it represents. Output this to the user.
+2. Using a pixel-by-pixel approach, initialise an array storing the bytes
+"0" (white), and "1" (black) for the sample image.
+2. For each image in the fontface directory (stores the letter and number
+images for comparison), also change these to black-and-white.
+3. For each image in the fontface directory, initialise an array storing
+the black and white vals, as was done for the sample image.
+4. Compare the sample-image array to the arrays of each of the other files
+in the fontface directory. For a shared pixel value at the same position,
+add one to the value of same.
+5. For each value of same, add it to a new Java arrayList, and determine
+which is the highest number within it. Output this number*100 (to make percent),
+to the user, as well as the name of the file.
+6. Replace the path of the file, leaving only the name, which, because of the
+naming-convention used, is also the value of the letter it represents.
+Output this to the user.
 7. EXIT
 ```
 
