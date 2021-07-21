@@ -25,7 +25,7 @@ Table of contents
 Introduction
 ------------
 
-Olr is a Java take on the well-known OCR, or optical character recognition. Unlike these other libraries, however, Olr separates itself by its ease-of-use, completely native dependencies (no external .jars), and lack of Neural Network. Instead, Olr uses a purely meth-driven approach to letter-recognition, keeping CPU-usage at a minimum while also not sacrificing quality. More information about the code, as well as a pseudocode approach to Olr, can be [found below](#Algorithm).
+Olr is a Java take on the well-known OCR, or optical character recognition. Unlike these other libraries, however, Olr separates itself by its ease-of-use, completely native dependencies (no external .jars), and lack of Neural Network. Instead, Olr uses a purely math-driven approach to letter-recognition, keeping CPU-usage at a minimum while also not sacrificing quality. More information about the code, as well as a pseudocode approach to Olr, can be [found below](#Algorithm).
 
 
 Screenshots
