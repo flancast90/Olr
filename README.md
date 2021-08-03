@@ -195,7 +195,7 @@ This README file is distributed under the terms of the [Apache 2.0 License](http
 Acknowledgments
 ---------------
 
-Thanks to everyone in the list below! Each of them helped me on my journey to create Pythune, and their knowledge and expertise in the subject of music, music-theory, or programming, respectively, taught me something new that is now implemented in Pythune. You all are awesome!
+Thanks to everyone in the list below! Each of them helped me on my journey to create Olr, and their knowledge and expertise in the subject of Java, AI, algorithms, or programming, respectively, taught me something new that is now implemented in Pythune. You all are awesome!
 
 Sorry, I'm a JavaScript developer, which (obviously), has no similarity to Java.
 
